@@ -1,0 +1,88 @@
+.box {
+    background: #fff;
+    margin-bottom: 15px;
+    padding: 2px;
+  float: left;
+}
+.column-33 {
+    width: 32%;
+}
+.column-right {
+    width: 32%;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    padding: 0;
+    margin: 0;
+  	list-style: none;
+}
+
+.box .box-header {
+    background-color: #2E6EA6;
+    height: 50px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.box .box-header h1 {
+ 	font-size: 20px;
+    color: #fff;
+    line-height: 48px;
+    margin: 10px;
+}
+
+.box .box-content {
+    padding: 6px;
+}
+
+table:not(.no-style) {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 13px;
+}
+
+table:not(.no-style) tbody tr:nth-child(odd) {
+    background: #f2f2f2;
+}
+table:not(.no-style) tr {
+    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #fff;
+}
+
+table:not(.no-style) tbody tr td:first-child, table:not(.no-style) thead tr th:first-child {
+    border-left: none;
+}
+table:not(.no-style) tbody tr td, table:not(.no-style) thead tr th {
+    padding: 6px 8px;
+    position: relative;
+    text-align: left;
+      color: #505050;
+    font-weight: 500;
+}
+.w15p {
+    width: 15%;
+}
+
+span.label.success {
+    background-color: #46a546;
+}
+span.label {
+    padding: 5px 6px 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: #bfbfbf;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+span.label.error {
+    background-color: #c43c35;
+}

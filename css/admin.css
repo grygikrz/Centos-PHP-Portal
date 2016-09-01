@@ -1,0 +1,73 @@
+/* Admin*/
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+  background: url('http://cdn.pcwallart.com/images/tropical-island-wallpapers-wallpaper-3.jpg');
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.note-editor.note-frame.panel.panel-default {
+    width: 70%;
+    margin: auto;
+}
+
+.form-group {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+button.btn.btn-success {
+    margin-left: 200px;
+    margin-top: 20px;
+    width: 233px;
+}
+
+form {
+    background-color: rgba(0, 0, 45, 0.36);
+    border-radius: 14px;
+    padding: 27px;
+    width: 90%;
+    margin: auto;
+    color: #FFF;
+}
+
+a.file-input-wrapper.btn.btn-default {
+    margin-top: 10px;
+}
